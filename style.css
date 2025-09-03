@@ -11,3 +11,44 @@ body {
     line-height: 1.5;        /* Altura de línea agradable */
 }
 
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #004080; /* Azul institucional */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Títulos de sección */
+h2 {
+    color: #004080;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 6px;
+    margin-top: 0; /* Por si el h2 es el primero dentro de la sección */
+}
+
+/* Contenedores de sección */
+section {
+    margin: 20px 0;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Línea divisoria si la usas */
+hr {
+    border: none;
+    border-top: 1px solid #d9d9e3;
+    margin: 24px 0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #555;
+}
+
