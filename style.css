@@ -1,1 +1,13 @@
-/* Archivo inicial de estilos */
+/* Estilo base */
+* {
+    box-sizing: border-box; /* Mejor manejo de anchos y paddings */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Tipografía legible en cualquier equipo */
+    margin: 20px;            /* Separación del borde de la ventana */
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333;             /* Texto gris oscuro para mejor lectura */
+    line-height: 1.5;        /* Altura de línea agradable */
+}
+
