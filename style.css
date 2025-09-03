@@ -52,3 +52,28 @@ footer {
     color: #555;
 }
 
+/* Listas y elementos de lista */
+ul, ol {
+    margin-left: 20px;
+    padding: 8px 0;
+}
+
+li {
+    margin: 6px 0;
+}
+
+/* Marcadores (puntos y números) más visibles */
+ul li::marker {
+    font-weight: bold;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+/* Listas dentro de secciones: un poco de espacio arriba */
+section ul,
+section ol {
+    margin-top: 10px;
+}
+
